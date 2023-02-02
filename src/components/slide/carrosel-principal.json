@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_slide_carrosel_principals",
+  "info": {
+    "displayName": "CorpoSlide",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "maxLength": 30,
+      "minLength": 2
+    },
+    "Foto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

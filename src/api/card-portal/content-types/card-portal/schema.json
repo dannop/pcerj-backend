@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_portals",
+  "info": {
+    "singularName": "card-portal",
+    "pluralName": "card-portals",
+    "displayName": "Acadepol-Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "botao": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Saiba Mais",
+        "Ir para o Site"
+      ],
+      "required": true
+    },
+    "icone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "fa fa-globe",
+        "fa fa-phone"
+      ],
+      "required": true
+    },
+    "cor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 8,
+      "minLength": 1
+    },
+    "titulo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 3
+    },
+    "descricao": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "maxLength": 200
+    },
+    "link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "maxLength": 400,
+      "required": true
+    }
+  }
+}

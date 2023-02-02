@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_noticia_institucionals",
+  "info": {
+    "displayName": "corpoNoticia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 400,
+      "minLength": 15
+    },
+    "Texto": {
+      "type": "text",
+      "required": true,
+      "unique": true,
+      "maxLength": 3000,
+      "minLength": 100
+    },
+    "Data": {
+      "type": "date",
+      "required": true
+    },
+    "Foto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estruturas",
+  "info": {
+    "singularName": "estrutura",
+    "pluralName": "estruturas",
+    "displayName": "Estrutura",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "cargo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 150,
+      "minLength": 10
+    },
+    "nome": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 150,
+      "minLength": 10
+    }
+  }
+}

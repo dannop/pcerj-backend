@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departamentos",
+  "info": {
+    "singularName": "departamento",
+    "pluralName": "departamentos",
+    "displayName": "Departamento",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "endereco": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "maxLength": 200,
+      "minLength": 15
+    },
+    "responsavel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 10
+    },
+    "telefone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true,
+      "maxLength": 200,
+      "minLength": 8
+    },
+    "categoria": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Capital",
+        "Baixada",
+        "Interior",
+        "Homicídios",
+        "Polícia Técnica",
+        "Atendimento à Mulher",
+        "Lavagem de Dinheiro",
+        "Acervo Cartorário"
+      ],
+      "required": true
+    },
+    "nome": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "minLength": 20,
+      "maxLength": 150
+    }
+  }
+}

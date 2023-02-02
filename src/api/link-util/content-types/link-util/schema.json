@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_utils",
+  "info": {
+    "singularName": "link-util",
+    "pluralName": "link-utils",
+    "displayName": "Acadepol-LinkÚtil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 5
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 400,
+      "minLength": 1
+    }
+  }
+}
