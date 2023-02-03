@@ -2,6 +2,7 @@ version: '3'
 services:
   strapi:
     image: strapi/strapi
+    platform: linux/amd64
     volumes:
       - ./app:/srv/app
     ports:
